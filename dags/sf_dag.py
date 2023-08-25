@@ -2,7 +2,6 @@
 from datetime import datetime
 from airflow.models import DAG
 from airflow.operators.dummy import DummyOperator
-from airflow.providers.snowflake.operators.snowflake import SnowflakeOperator
 from airflow.providers.common.sql.operators.sql import (
     SQLColumnCheckOperator,
     SQLTableCheckOperator,
