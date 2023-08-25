@@ -1,0 +1,1 @@
+Add aditional Airflow plugins on this folder. Python dependencies are configured on the Azure Data Factory configuration.
